@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Arial';
+}
+header{
+    background: #A8E2F0;
+    background-size: cover;
+    background-position:center;
+    height: 100px;
+}
+
+
+header img {
+    text-align: left;
+    height: 90%;
+}
+
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width: 850px) {
+    .contenedor {
+      display: block;
+    }
+    .contenedor-items{
+        width: 100% !important;
+    }
+    .carrito{
+        width: 100%;
+    }
+  }
+
+  footer {
+    background: #dde025;
+    background-size: cover;
+    background-position:center;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: available;
+  padding: 0;
+  margin: 5px auto 0 auto;
+  
+}
+
+.bodyContacto{
+    background-color: #6495ED;
+}
+
+.formContacto{
+    background-color: #fff7e6;
+}
